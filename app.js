@@ -116,20 +116,20 @@ const quotesLibrary = [{
 }, {
     quotes: 'There are three constants in life... change, choice and principles',
     saidBy: 'Stephen Covey'
-}, 
-]
+}]
 
 
-// --------------------- Event listeners ---------------------------
+// --------------=---------- functions -----------------------------
 function changeQuote() {
     console.log('hiiiiiiiiii')
     let randomQuote = Math.floor(Math.random() * quotesLibrary.length);
-
+    
     quotes.textContent = quotesLibrary[randomQuote].quotes;
     saidBy.innerText = quotesLibrary[randomQuote].saidBy;
 }
 
 console.log(saidBy)
+
 
 // --------------------- Event listeners ---------------------------
 btn.addEventListener('click', changeQuote);
