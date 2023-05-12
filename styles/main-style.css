@@ -12,12 +12,20 @@ body {
   justify-content: center;
   /* align-items: center; */
   margin-top: 125px;
-  height: 100vh;
   text-align: center;
-  background: url(images/bg4.jpg) no-repeat center center/cover;
+  background: url(/images/bg3.jpg) no-repeat center center/cover;
+ 
+  /* css for anim */
+  width: 100%;
+  height: 80vh;
+  background: url(/images/animation-images/background.png);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
 }
 
-.container {
+.content {
   /* border: 2px solid tomato; */
   height: 40%;
   width: 60%;
